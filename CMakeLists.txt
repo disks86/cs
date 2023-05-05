@@ -8,4 +8,4 @@ file(GLOB CS_SRC
         "*.cpp"
         )
 
-add_library(cs ${CS_SRC} core/array_view.cpp core/array_view.h core/min.h)
+add_library(cs ${CS_SRC} core/array_view.cpp core/array_view.h core/min.h core/type.cpp core/type.h)
